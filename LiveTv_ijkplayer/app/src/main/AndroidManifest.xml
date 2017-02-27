@@ -24,6 +24,7 @@
             android:name=".LiveActivity"
             android:screenOrientation="portrait"/>
         <activity android:name=".NetworkLiveTv"/>
+        <activity android:name=".mediaplayer.MediaPlayer"/>
     </application>
 
 </manifest>

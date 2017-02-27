@@ -20,6 +20,7 @@
     <com.example.huangjian.livetv_ijkplayer.widget.SmoothHorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:id="@+id/mMain_first_View"
         >
         <com.example.huangjian.livetv_ijkplayer.widget.DrawingOrderRelativeLayout
             android:id="@+id/list"
@@ -77,7 +78,10 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="left|center_vertical"
                 android:scaleType="centerCrop"
-                android:src="@drawable/media_player" />
+                android:src="@drawable/media_player"
+                android:id="@+id/mImageView_MediaPlayer"
+                android:clickable="true"
+                />
         </com.example.huangjian.livetv_ijkplayer.widget.MetroItemFrameLayout>
 
 
